@@ -3,7 +3,7 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         //Task 1
-        printLeapYear(2022);
+        printLeapYear(2000);
 
         //Task 2
         int clientOS = 1;
@@ -37,8 +37,8 @@ public class Main {
             autput = year + " год является высокосным";
         } else {
             autput = year + " год не является высокосным";
-            System.out.println(autput);
         }
+        System.out.println(autput);
     }
 
     private static boolean isLeapYear(int year) {
